@@ -1,0 +1,41 @@
+.navbar{
+	background-color: gray;
+	color: black;
+}
+#brand, #brand:hover{
+	text-decoration: none;
+	color: black;
+	font-size: 28px;
+}
+.navbar-brand{
+	margin-left: 20px;
+	font-size: 26px;
+}
+h1{
+	margin: 30px auto 30px;
+}
+hr{
+	width: 60%;
+	border-top: 1px solid white;
+}
+.nav-item{
+	text-align: center;
+}
+#container-text{
+	background-color: gray;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	margin-bottom: 30px;
+}
+
+#text-in{
+	padding: 0px 15px 15px;
+	margin-bottom: 30px; 
+}
+@media (max-width: 767px) {
+	.col-xxs-12{
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
